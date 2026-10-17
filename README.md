@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lokesh React Portfolio
 
 React/Vite conversion of the original portfolio.
@@ -27,3 +28,7 @@ npm run build
 Replace the `#` project links in `src/App.jsx` with the actual deployed URLs for the portfolio, Recipe Finder, and Spotify Clone projects.
 
 The contact form keeps the original Formspree endpoint from the HTML version.
+=======
+# portfolio
+My personal portfolio website built using HTML, CSS &amp; JavaScript.
+>>>>>>> origin/main
