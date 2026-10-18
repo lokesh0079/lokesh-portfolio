@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: var(--font-family);
+  color: var(--color-text);
+  background: var(--color-background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 80% 10%,
+      rgba(56, 189, 248, 0.08),
+      transparent 25rem
+    ),
+    var(--color-background);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+main {
+  overflow: hidden;
+}
+
+section {
+  padding: 90px 8%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: clamp(30px, 4vw, 40px);
+  margin-bottom: 42px;
+}
+
+.section-title,
+.contact-title {
+  color: #38bdf8;
+}
+
+
+@media (max-width: 768px) {
+  section {
+    padding: 70px 8%;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}

@@ -1,0 +1,15 @@
+
+:root {
+  --color-background: #0f172a;
+  --color-background-dark: #020617;
+  --color-card: #1e293b;
+  --color-card-hover: #243247;
+  --color-primary: #38bdf8;
+  --color-primary-hover: #0ea5e9;
+  --color-text: #e5e7eb;
+  --color-text-muted: #94a3b8;
+  --color-text-secondary: #cbd5e1;
+  --color-border: #334155;
+  --font-family: "Poppins", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
